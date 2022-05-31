@@ -7,17 +7,6 @@
         <title>Yrkeserfarenhet</title>
 
         <style>
-            .firstpage{
-                display: grid;
-                grid-template-rows: minmax(15%, auto) minmax(70%, auto);
-                grid-row-gap: 1em;
-            }
-            .firstpage >div{
-                padding: 1em;
-                margin-top: 10%;
-            }           
-        </style>
-        <style>
             @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
         </style>
     </head>
@@ -27,10 +16,10 @@
                 background-color: rgb(155, 185, 240);
             }
         </style>
-        <div class="firstpage">
-            <nav class="nav" role="navigation"> 
+        <header>
+            <nav id="nav" role="navigation"> 
                 <a class="rubrik">CV - Vitoria Borg Vidal</a>
-                <a class="links" href="../index.html">Presentation</a>
+                <a class="links" href="index.html">Presentation</a>
                 <a class="links" href="utbildning.html">Utbildning</a>
                 <a class="selected" href="yrkeserfarenhet.html">Yrkeserfarenhet</a>
                 <a class="links" href="kompetenser.html">Kompetenser</a>
@@ -38,34 +27,14 @@
                 <a class="links" href="kontakt.html">Kontakt</a>
                 <img src="/images/headerMoon.jpg" alt="Picture of the moon against water." style="width:100%;height:10vw;">
             </nav>
-        <
+        </header>
+        <main>
             <div class="rektangel3">
                 <center>
-                    <h4>Gekås Varuhus, Hemtextil, Ullared</h4>
-                     <p style="font-size: medium;">Säljare, plocka och fronta varor, kassa</p>
-                    <p style="font-size:large; font-family: none">(2020) juni - nov </p>
-                    <p style="font-size:large; font-family: none">(2019) okt - dec </p>
-                    <hr>
-                    <h4>Burger & Chill, Varberg</h4>
-                    <p style="font-size:medium">Kassa, servering, disk, städ</p>
-                    <p style="font-size:large; font-family: none">(2021) maj - sep</p>
-                    <p style="font-size:large; font-family: none">(2018) feb - feb (2019)</p>
-                    <hr>
-                    <h4>Le Juice, Varberg</h4>
-                    <p style="font-size:medium">Kassa, servering, disk, städ</p>
-                    <p style="font-size:large; font-family: none">(2018) feb - feb (2019)</p>
-                    <hr>
-                    <h4>The Spot Pizzeria, Albufeira, Portugal</h4>
-                    <p style="font-size:medium">Bartender, kassa, servering, disk, städ, prepp</p>
-                    <p style="font-size:large; font-family: none">(2019) mars - sep</p>
-                    <p style="font-size:large; font-family: none">(2019) juli - sep</p>
-                    <hr>
-                    <h4>Wärdshuset Istanbul, Varberg</h4>
-                    <p style="font-size:medium">Bartender, kassa, servering, disk, städ</p>
-                    <p style="font-size:large; font-family: none">(2016) juni - sep</p>
-            
-                </center>            
+                    <div id="erfarenhet"></div>
+                    <script src="/html/Js/Yrkeserfarenhet.js"></script>
+                </center>        
             </div>
-        </div>
+        </main>
     </body>
 </html>

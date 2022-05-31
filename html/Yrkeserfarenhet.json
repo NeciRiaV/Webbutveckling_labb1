@@ -1,0 +1,35 @@
+[
+    {
+        "Id": 1,
+        "Företag": "Gekås Varuhus, Ullared",
+        "Arbete": "(Hemtextil) Säljare, plocka och fronta varor, kassa",
+        "Period": "2020 juni - nov", 
+        "Period2": "2019 okt - dec"
+    },
+    {
+        "Id": 2,
+        "Företag": "Burger & Chill, Varberg",
+        "Arbete": "Kassa, servering, disk, städ",
+        "Period": "2021 maj - sep",
+        "Period2": "2018 feb - feb 2019"
+    },
+    {
+        "Id": 3,
+        "Företag": "Le Juice, Varberg",
+        "Arbete": "Kassa, servering, disk, städ",
+        "Period": "2018 feb - feb 2019"
+    },
+    {
+        "Id": 4,
+        "Företag": "The Spot Pizzeria, Albufeira, Portugal",
+        "Arbete": "Bartender, kassa, servering, disk, städ, prepp",
+        "Period": "2019 mars - sep",
+        "Period2": "2017 juni - sep"
+    },
+    {
+        "Id": 5,
+        "Företag": "Wärdshuset Istanbul, Varberg",
+        "Arbete": "Bartender, kassa, servering, disk, städ",
+        "Period": "2016 juni - sep"
+    }
+]

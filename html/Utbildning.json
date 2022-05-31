@@ -1,0 +1,20 @@
+[
+    {
+        "Id": 1,
+        "Skolning": "Systemutvecklare",
+        "Plats": "Campus, Varberg",
+        "Period": "2021-2023"
+    },
+    {
+        "Id": 2,
+        "Skolning": "Bartender",
+        "Plats": "EBS - European Bartender School, Göteborg",
+        "Period": "2017"
+    },
+    {
+        "Id": 3,
+        "Skolning": "Estetprogrammet - Teater",
+        "Plats": "Pederskrivares skola, Varberg",
+        "Period": "2014-2017"
+    }
+]
